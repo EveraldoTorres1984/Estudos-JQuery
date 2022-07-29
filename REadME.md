@@ -1,0 +1,1 @@
+Repositótio voltado ao estudo do JQuery, na prática.
