@@ -4,3 +4,16 @@ html, body{
     margin: 0; 
     text-align: center;  
 }
+
+a{
+    margin-right: 20px;
+}
+
+.red{
+    color: red;
+    text-decoration: none;
+}
+
+.blue{
+    color: blue;
+}

@@ -26,7 +26,20 @@ $(function () {
         $('#link').text('Ir para programação web');
         $('#link').attr('href', 'https://programacaoweb.com.br');
     });
-    $('#botao5').on('click', function () {        
+    $('#botao5').on('click', function () {
         $('img').attr('src', 'https://vocerh.abril.com.br/wp-content/uploads/2021/03/mitchell-luo-jz4ca36oJ_M-unsplash.jpg?quality=70&strip=info&resize=850,567');
+    });
+    $('#botao6').on('click', function () {
+        $('h1').remove();
+    });
+    $('#botao7').on('click', function () {
+        $('#teste').empty();
+    });
+    $('#botao8').on('click', function () {
+        $('#link').addClass('red');
+    });
+    $('#botao9').on('click', function () {
+        var larguraImg = $('img').width();
+        alert("A largura é: " + larguraImg + ' px'); 
     });
 });

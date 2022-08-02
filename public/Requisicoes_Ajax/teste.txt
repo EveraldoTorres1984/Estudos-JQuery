@@ -1,0 +1,2 @@
+<h2> Ajax maneiro!</h2>
+<p> Este conteúdo foi puxado de um arquivo externo </p>
